@@ -1,0 +1,229 @@
+#our_orga{
+    padding: 80px 10%;
+}
+
+.gen_main{
+    display: flex;
+    gap: 10%;
+    margin-bottom: 20px;
+}
+.gen_img img{
+    width: 600px;
+}
+.gen_txt{
+    margin-left: -15px;
+}
+.gen_txt {
+    margin-top: 30px;
+}
+.gen_txt p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: justify;
+}
+.vision_card_main{
+    /* background: rgb(239, 239, 239); */
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://static.theprint.in/wp-content/uploads/2018/02/NH-212_through_Bandhipur_forest_roads_in_Kerala_India-1024x680.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.vision_card_sub{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.vision_card{
+    width: 500px;
+    background: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    /* filter: brightness(1) !important; */
+}
+.vision_card h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.vision_card p{
+    font-size: 15px;
+}
+.vision_card h1:first-child{
+    color: #61CE70;
+}
+.award_img{
+    width: 50px;
+    filter: contrast(1.5);
+    margin-bottom: 15px;
+}
+.awards_map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    padding: 10px 10%;
+    gap: 20px;
+    text-align: center;
+}
+.awards_sub{
+    width: 260px;
+    flex-grow: 1;
+}
+.awards_txt{
+    /* border: 1px solid blue; */
+    min-height: 150px;
+    /* padding: 10px; */
+}
+.awards_txt h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.awards_txt p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #999;
+}
+#awards{
+    margin-top: 25px;
+    margin-bottom: -25px;
+    /* background: url(https://www.pngkey.com/png/full/287-2871296_tried-and-tested-world-map.png); */
+    /* background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://www.shutterstock.com/image-vector/vector-hand-drawn-outline-world-260nw-2427141617.jpg); */
+    
+}
+.board_card{
+    display: flex;
+    align-items: center;
+    width: 620px;
+    gap: 50px;
+    /* flex-grow: 1; */
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.1); */
+    padding: 20px;
+    /* margin-bottom: -40px; */
+    /* border:  1px solid rgba(0,0,0,0.1); */
+
+}
+.board_txt h4{
+    font-size: 24px;
+    margin-bottom: -1px;
+
+}
+.board_txt small{
+    opacity: 0.9;
+}
+.board_txt p{
+    margin-top: 10px    ;
+    font-size: 14px;
+    text-align: justify;
+}
+/* .board_mem{
+    padding: 0 10%;
+} */
+.board_social{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.board_mem_sub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+.board_mem{
+    margin-top: 50px;
+}
+.board_card img{
+    width: 300px;
+}
+
+
+@media(max-width:1400px){
+    #our_orga{
+        padding: 60px 3%;
+    }
+    .board_card{
+        /* flex-grow: 1; */
+        /* width: ; */
+        display: grid;
+        border:  1px solid rgba(0,0,0,0.1);
+        /* padding: 20px 0 !important; */
+        width: 400px;
+        flex-grow: 1;
+        row-gap: 30px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .board_card img{
+        width: 100%;
+        /* margin-top: -45px; */
+       
+    }
+    .board_txt{
+        /* margin-top: -70px; */
+        padding: 0 15px 20px;
+    }
+    #board{
+        margin-top: -40px;
+    }
+}
+/* @media(max-width:1150px){
+    .gen_img img{
+        width: 560px;
+    }
+} */
+
+@media(max-width:1060px){
+    .gen_main{
+        flex-wrap: wrap-reverse ;
+        row-gap: 30px;
+    }
+    .gen_img img{
+        width: 100%;
+    }
+    .impo_head2{
+        
+        text-align: center !important;
+    }
+    .gen_txt{
+        margin-left: 0;
+    }
+    .gen_main_2{
+        flex-wrap: wrap !important;
+    }
+    .vision_card_main{
+        padding: 60px 3%;
+        height: auto;
+    }
+    .vision_card_sub{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .vision_card{
+        flex-grow: 1;
+    }
+    #board{
+        margin-top: -60px;
+    }
+    /* .vision_card h1{
+        font-size: 24px;
+    } */
+}
+@media(max-width:768px){
+    .awards_map{
+        padding: 10px 3%;
+    }
+    .board_card{
+        width: 300px;
+        flex-grow: 1;
+    }
+    
+}
+@media(max-width:600px){
+    #board{
+        margin-top: -80px;
+    }
+}

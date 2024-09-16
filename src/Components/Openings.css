@@ -1,0 +1,15 @@
+.cur_op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+.cur_op h1{
+    color: #FD9F00;
+}
+
+@media(max-width:1060px){
+    .cur_op {
+        height: 15vh;
+    }
+}

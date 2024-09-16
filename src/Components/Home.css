@@ -1,0 +1,289 @@
+.home{
+    width: 100%;
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/cute-little-blond-girls-playing-with-water-splashes-field-summer_155003-12769.jpg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: cover;
+    padding: 0 10%;
+    
+
+}
+.home_sub{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.home_txt{
+    color: #fff;
+    opacity: 0.8;
+}
+.home_txt h2{
+    margin-bottom: 30px;
+}
+.home_txt h1{
+    font-size: 120px;
+    margin-bottom: 50px;
+}
+.home_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.home_btn p{
+    position: relative;
+}
+.home_btn p::before{
+    
+        content: '';
+        position: absolute;
+        left: -20px;
+        top: 0;
+        width: 3px;
+        height: 100%;
+        background: #22B6AF;
+    
+}
+
+
+
+
+
+
+
+
+
+.medi_main{
+    padding: 20px 3%;
+}
+.medi{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.medi_sub {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.medi_sub img{
+    width: 70px;
+}
+.medi_txt{
+    margin-top: 10px;
+}
+.medi_sub h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.help_card_main{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.help_card{
+    width: 350px;
+    /* border: 1px solid #000; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.help_card_img{
+    position: relative;
+}
+.help_card_img a{
+    position: absolute;
+    right: 15px;
+    top: 90%;
+}
+.help_card_img img{
+    width: 100%;
+}
+.help_card_txt{
+    padding: 40px 30px;
+}
+.help_card_txt h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.help_card_txt p{
+    opacity: 0.9;
+    font-size: 15px;
+    
+}
+.help_card_txt .bar {
+    width: 100%;
+    height: 3px;
+    background: rgb(242, 245, 248);
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative; 
+    accent-color: #2272B6;
+}
+
+
+.help_card_txt .bar::before{
+    content: '69 %';
+    position: absolute;
+    /* width: 30px; */
+    font-size: 10px;
+    padding: 3px 15px;
+    top: -300%;
+    left: 65%;
+    background: #2272B6;
+    color: #fff;
+
+}
+.help_card_txt .bar2::before{
+    content: '66%' !important;
+}
+.help_card_txt .bar3::before{
+    content: '68%' !important;
+}
+
+.donate_btn_2{
+    background: #2272B6 !important;
+    padding: 8px 20px !important;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.donate_btn_3{
+    background: #F2A922 !important;
+    color: #fff;
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.goal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.goal h6{
+    font-size: 14px;
+}
+.goal h6 span{
+    opacity: 0.8;
+}
+#surgeons{
+    background: url(https://img.freepik.com/free-photo/front-view-smiley-scouts-outdoors_23-2149885219.jpg?t=st=1725979624~exp=1725983224~hmac=b8ad581dcfa63e45e0e536b55ea2b1171e837915d24cd000deeb48e400e0aaa5&w=996);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: grid;
+    align-items: center;
+    
+}
+.support{
+    width: 400px;
+    background: #fff;
+    padding: 50px 40px;
+}
+.sup_txt{
+    text-align: center;
+}
+.sup_inp{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+.sup_inp input{
+    width: 100%;
+    height: 50px;
+    padding: 0 0 0 120px;
+    font-size: 40px;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+.sup_dol{
+    background: #000;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.sup_inp_2 input{
+    width: 50px;
+}
+/* .carousel-item img{
+    height: 75vh;
+} */
+ /* .mod_heading{
+    background: #f5f5f5;
+ } */
+
+@media(max-width:1400px){
+    .home{
+        padding: 0 3%;
+    }
+}
+
+@media(max-width:1060px){
+    .medi_sub{
+        flex-grow: 1 !important;
+        justify-content: center !important;
+    }
+    .help_card_main{
+        flex-wrap: wrap;
+    }
+    .help_card{
+        flex-grow: 1;
+    }
+    .home{
+        height: auto;
+        padding: 80px 3%;
+    }
+    .home_txt h2{
+        margin-bottom: 20px;
+    }
+    .home_txt h1{
+        font-size: 100px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:768px){
+    .home_txt{
+        text-align: center;
+    }
+    .home_txt h2{
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .home_txt h1{
+        font-size: 65px;
+        margin-bottom: 30px;
+    }
+    .congo{
+        display: none;
+    }
+    .home_btn{
+        justify-content: center;
+        /* gap: 30px;
+        flex-wrap: wrap; */
+    }
+
+}
+
+@media(max-width:400px){
+    .mod_heading{
+        margin-top: -5px;
+    }
+    .home_txt h1{
+        font-size: 65px;
+    }
+}

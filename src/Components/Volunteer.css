@@ -1,0 +1,56 @@
+.vol_img img{
+    width: 500px;
+}
+.vol_main{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.vol_inp input,textarea,select{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(0,0,0,0.2);
+    outline: none;
+    /* padding: 5px 20px; */
+    color: #999;
+    font-size: 16px !important;
+}
+.vol_inp input,textarea,select::placeholder{
+    padding: 0 5px;
+}
+textarea{
+    height: 60px !important;
+    resize: none;
+}
+.vol_form h4{
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.inp_file{
+    border: none !important;
+    height: 25px;
+    padding: 0  !important;
+}
+.vol_inp_side{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+@media(max-width:1060px){
+    .vol_main{
+        flex-wrap: wrap;
+    }
+    .vol_img img{
+        width: 100%;
+    }
+    .vol_main{
+        gap: 0 ;
+        row-gap: 30px;
+
+    }
+    .vol_form{
+        width: 100%;
+    }
+}

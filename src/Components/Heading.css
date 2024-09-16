@@ -1,0 +1,46 @@
+.heading{
+    text-align: center;
+}
+.heading small{
+    position: relative;
+    font-size: 15px;
+}
+.heading small::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #22B6AF;
+}
+.head_sub{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.head_sub h1{
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+.head_sub h1:first-child{
+    margin-bottom: -2px;
+}
+
+
+
+@media(max-width:1060px){
+    .head_sub{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+        justify-content: center;
+    }
+    .head_sub h1{
+        font-size: 30px;
+    }
+    .head_sub h1:first-child{
+        margin-bottom: 8px;
+    }
+}
