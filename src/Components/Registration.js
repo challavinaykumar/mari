@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Registration.css'
 import Barheading from './Barheading';
-import registration_image from '../Images/registration.jpeg'
+// import registration_image from '../Images/registration.jpeg'
 import Heading from './Heading';
 import Footer from './Footer';
 
